@@ -1,0 +1,26 @@
+Research Questions
+The aim of our study is to answer the below research questions:
+a) Does price vary with Airlines?
+b) How is the price affected when tickets are bought in just 1 or 2 days before departure?
+c) Does ticket price change based on the departure time and arrival time?
+d) How the price changes with change in Source and Destination?
+e) How does the ticket price vary between Economy and Business class?
+
+DATA COLLECTION AND METHODOLOGY
+Octoparse scraping tool was used to extract data from the website. Data was collected in two parts: one for economy class tickets and another for business class tickets. A total of 300261 distinct flight booking options was extracted from the site. Data was collected for 50 days, from February 11th to March 31st, 2022.
+
+DATASET
+Dataset contains information about flight booking options from the website Easemytrip for flight travel between India's top 6 metro cities. There are 300261 datapoints and 11 features in the cleaned dataset.
+
+Featutes 
+1.	Airline: The name of the airline company.
+2.	Flight: Flight stores information regarding the plane's flight code.
+3.	Source City: City from which the flight takes off.
+4.	Departure Time: Departure time and have 6 unique time labels.
+5.	Stops: Number of stops between the source and destination cities.
+6.	Arrival Time: Arrival time and have 6 unique time labels.
+7.	Destination City: City where the flight will land.
+8.	Class: Business and Economy.
+9.	Duration: Overall amount of time it takes to travel between cities in hours.
+10.	Days Left: Calculated by subtracting the trip date by the booking date.
+11.	Price: Ticket price.
